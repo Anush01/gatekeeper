@@ -1,0 +1,41 @@
+{
+  "name": "gatekeeper",
+  "version": "1.0.0",
+  "description": "AuthService written in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anush01/gatekeeper.git"
+  },
+  "author": "Anuradha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anush01/gatekeeper/issues"
+  },
+  "homepage": "https://github.com/Anush01/gatekeeper#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^24.4.0",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
